@@ -8,6 +8,7 @@ categories:
 - Five Pillars
 - Agile
 ---
+{% img right a/pillars/pillar.png 160 160 %}
 Being able to roll with the punches in a cloud environment is extremely important. The cloud can be used for a steady state environment, but really shines when coupled with monitoring and the API. Every application in the cloud should fit in one of these four buckets:
 
 * On and Off
