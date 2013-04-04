@@ -1,3 +1,19 @@
 {% comment %}
   Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
 {% endcomment %}
+<script type="text/javascript" src="javascripts/jquery-1.5.2.min.js"></script>
+<script language="javascript">
+
+function globalCeiling() {
+	$('.pocketbutton').hover(function(){
+		$(this).find('ul').show();
+	},function(){	
+		$(this).find('ul').hide();
+	});
+}
+
+$(document).ready(function(){
+	globalCeiling();
+});
+
+</script>
