@@ -4,11 +4,12 @@ This repo powers the [Rackspace DevOps Blog](http://devops.rackspace.com) and is
 ## How to contribute to the blog
 1. Fork the repo, clone your fork to your local machine
 2. [Set up Octopress/RVM](http://octopress.org/docs/setup/)
-3. Create a new post: `rake new_post['The title of your post']`
-4. Edit the file that is created. [Here](http://daringfireball.net/projects/markdown/syntax) is a format guide for Markdown.
-5. Be sure to leave "published: false" on your post so we can schedule content for posting.
-6. Check your work with `rake generate && rake preview` (You can reach it at http://localhost:4000)
-7. [Submit a pull request](https://help.github.com/articles/using-pull-requests) with your new post
+3. In the `devopsblog` directory, run `bundle install`.
+4. In the same directory, create a new post: `rake new_post['The title of your post']`
+5. Edit the file that is created. [Here](http://daringfireball.net/projects/markdown/syntax) is a format guide for Markdown.
+6. Be sure to leave "published: false" on your post so we can schedule content for posting.
+7. Check your work with `rake generate && rake preview` (You can reach it at http://localhost:4000)
+8. [Submit a pull request](https://help.github.com/articles/using-pull-requests) with your new post
 
 ## License
 (The MIT License)
