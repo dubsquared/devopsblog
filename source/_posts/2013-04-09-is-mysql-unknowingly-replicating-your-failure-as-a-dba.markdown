@@ -4,7 +4,7 @@ title: "Are you unknowingly replicating your failure as a DBA?"
 date: 2013-04-09 08:00
 comments: true
 author: Steve Katen 
-published: false 
+published: true 
 categories: 
 - Cloud Servers
 - Cloud Monitoring
