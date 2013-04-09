@@ -84,3 +84,5 @@ To unsubscribe the process is similar. We take the email of a subscribed user, i
 **NOTE**: If a user is not subscribed to a mailing list this method will call the failure block with a 404 error. This is normal and should be handled appropriately.
 
 I hope this brief introduction to the new Mailgun SDK gets you as excited as I am to add Mailgun features to your next OS X or iOS project. Feel free to fork the project and contribute or file any issues you find on our [Github page](https://github.com/rackerlabs/objc-mailgun).
+
+_Jay Baird is an iOS developer at Rackspace's San Francisco office working on mobile products and services. His first computer was an Apple II and since then he knew most of his adult life would be consumed by technology. His favorite Steve Jobs-ism is that the Macintosh is "insanely great." Jay also holds a commercial pilot license and is studying to be a flight instructor. You can follow Jay on Twitter at [@skatterbean](https://twitter.com/skatterbean)._
