@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Autoscale and Orchestration: the Heat of OpenStack"
-date: 2013-04-02 16:22
+date: 2013-04-10 12:00
 comments: true
 author: Duncan McGreggor
-published: false
+published: true
 categories:
 - OpenStack
 - Community
@@ -12,7 +12,6 @@ categories:
 - Configuration Management
 - Autoscale
 ---
-
 Several months before I joined Rackspace last year, there were efforts under
 way to provide an Autoscaling solution for Rackspace customers. Features that
 we needed in OpenStack and Heat hadn't been released yet, and there were no
