@@ -21,8 +21,12 @@ developing a product that met Rackspace customer needs, integrated with the
 existing monitoring and load-balancing infrastructure, and made calls to
 OpenStack Nova APIs as part of the scaling up and down process.
 
-At PyCon this year, Monty Taylor, Robert Collins, Clint Byrum, Devananda van
-der Veen, and I caught up and chatted about what their views were of the
+At PyCon this year,
+<a href="https://github.com/emonty">Monty Taylor</a>,
+<a href="https://launchpad.net/~lifeless">Robert Collins</a>,
+<a href="http://fewbar.com/">Clint Byrum</a>,
+<a href="http://www.linkedin.com/in/devanandavdv">Devananda van der Veen</a>,
+and I caught up and chatted about what their views were of the
 current status of autoscaling support in OpenStack Heat. It seems that the two
 pieces we need the most -- LBaas and support for external monitoring systems
 (perhaps via webhooks) -- are nascent and not ready for prime-time yet.
