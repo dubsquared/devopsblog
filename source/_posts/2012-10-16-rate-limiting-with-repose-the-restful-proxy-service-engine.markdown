@@ -65,14 +65,14 @@ Repose requires that a few folders exist on your system. Create the following fo
 
 You will also need to ensure that the user account that is running Repose has the necessary access to read and execute on the appropriate folders.
 
-With those folders created, we can move on to gathering the binary artifacts required to run Repose. Alternatively, you can grab the source code from the [GitHub repository for Repose](https://github.com/rackspace/repose) and compile the code yourself.
+With those folders created, we can move on to gathering the binary artifacts required to run Repose. Alternatively, you can grab the source code from the [GitHub repository for Repose](https://github.com/rackerlabs/repose) and compile the code yourself.
 
 Here are the steps to get the configuration and binary files copied over:
 
-1. Copy all of the example Repose configuration files [from this location](https://github.com/rackspace/repose/tree/master/project-set/core/core-lib/src/main/resources/META-INF/schema/examples) into the **/etc/repose/** folder.
-2. Copy the IP Identity configuration example file [from this location](https://github.com/rackspace/repose/blob/master/project-set/components/client-ip-identity/src/main/resources/META-INF/schema/examples/ip-identity.cfg.xml) into the **/etc/repose/** folder
-3. Copy the Rate Limiting configuration example [file from this location](https://github.com/rackspace/repose/blob/master/project-set/components/rate-limiting/src/main/resources/META-INF/schema/examples/rate-limiting.cfg.xml) into the **/etc/repose/** folder
-4. Copy the HTTP Logging configuration example [file from this location](https://github.com/rackspace/repose/blob/master/project-set/components/http-logging/src/main/resources/META-INF/schema/examples/http-logging.cfg.xml) into the **/etc/repose/** folder
+1. Copy all of the example Repose configuration files [from this location](https://github.com/rackerlabs/repose/tree/master/project-set/core/core-lib/src/main/resources/META-INF/schema/examples) into the **/etc/repose/** folder.
+2. Copy the IP Identity configuration example file [from this location](https://github.com/rackerlabs/repose/blob/master/project-set/components/client-ip-identity/src/main/resources/META-INF/schema/examples/ip-identity.cfg.xml) into the **/etc/repose/** folder
+3. Copy the Rate Limiting configuration example [file from this location](https://github.com/rackerlabs/repose/blob/master/project-set/components/rate-limiting/src/main/resources/META-INF/schema/examples/rate-limiting.cfg.xml) into the **/etc/repose/** folder
+4. Copy the HTTP Logging configuration example [file from this location](https://github.com/rackerlabs/repose/blob/master/project-set/components/http-logging/src/main/resources/META-INF/schema/examples/http-logging.cfg.xml) into the **/etc/repose/** folder
 5. Copy the latest EAR filter bundle [file from this location](http://maven.research.rackspacecloud.com/content/repositories/releases/com/rackspace/papi/components/filter-bundle/) and place **filter-bundle-x.x.x.ear** file into the **/usr/share/repose/filters/** folder.
 6. Copy the latest **valve-x.x.x.jar** [file from this location](http://maven.research.rackspacecloud.com/content/repositories/releases/com/rackspace/papi/core/valve/) and place it into the **/usr/share/lib/repose/** folder.
 
@@ -254,6 +254,6 @@ You should be able to hit the API 10 times per second now.
 When you are finished with your experiment, shut Repose down by hitting this URL:
 [http://localhost:8188/](http://localhost:8188/)
 
-Rate limiting is only one small piece of what Repose can do. To learn more about Repose, the [Open Repose](http://openrepose.org/) website is your starting point providing links to the [source code](https://github.com/rackspace/repose) in GitHub. This is also the right place to find our [documentation](http://openrepose.org/documentation.html), including an [FAQ](http://wiki.openrepose.org/display/REPOSE/FAQ) and [wiki](http://wiki.openrepose.org/display/REPOSE/Home); the wiki has the most current information. If you have ideas about how Repose can grow to suit your needs, you are welcome to [contribute back](http://wiki.openrepose.org/display/REPOSE/Contributing+to+the+Repose+Project) to this project.
+Rate limiting is only one small piece of what Repose can do. To learn more about Repose, the [Open Repose](http://openrepose.org/) website is your starting point providing links to the [source code](https://github.com/rackerlabs/repose) in GitHub. This is also the right place to find our [documentation](http://openrepose.org/documentation.html), including an [FAQ](http://wiki.openrepose.org/display/REPOSE/FAQ) and [wiki](http://wiki.openrepose.org/display/REPOSE/Home); the wiki has the most current information. If you have ideas about how Repose can grow to suit your needs, you are welcome to [contribute back](http://wiki.openrepose.org/display/REPOSE/Contributing+to+the+Repose+Project) to this project.
 
 Repose is available as open source under the [Apache License version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
