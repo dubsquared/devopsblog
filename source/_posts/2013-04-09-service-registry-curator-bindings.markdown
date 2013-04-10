@@ -1,23 +1,23 @@
 ---
 layout: post
 title: "Service Registry Bindings for Netflix Curator"
-date: 2013-04-09 07:24
+date: 2013-04-10 08:00
 comments: true
 author: Gary Dusbabek
-published: false
+published: true
 categories: 
 - Service Registry
 ---
-<img src="a/2013-04-09-service-registry-curator-bindings/feetshures.png"/>
-
 ##The Problem
 Have you ever set out to do something new, only to find yourself encumbered by a list of prerequisites that 
 must be figured out first?  For example, you would like to implement Awesome Feature X in your application.
 But before doing that you have to figure out how to use a new library.  Except the documentation for that 
-library is not very good, or the examples are out of date, or... the list goes on.
+library is not very good, or the examples are out of date, or... the list goes on.<!--More-->
 
 Well, you are not alone. I feel that way all the time.  Good APIs don’t just do their jobs well--they are 
 also easy to consume.  
+
+{% img center a/2013-04-09-service-registry-curator-bindings/feetshures.png %}
 
 ##We Are Here to Help
 One of the overarching goals of the [Rackspace Service Registry](https://dfw.registry.api.rackspacecloud.com/)
