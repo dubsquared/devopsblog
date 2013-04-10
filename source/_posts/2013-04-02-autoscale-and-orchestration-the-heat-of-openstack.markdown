@@ -33,6 +33,13 @@ pieces we need the most -- LBaas and support for external monitoring systems
 Regardless, Monty and his team encouraged us to dive into Heat, contribute
 patches, and in general, release our work for consumption by other Stackers.
 
+Quick aside: OpenStack <a href="https://wiki.openstack.org/wiki/Heat">Heat</a>
+is a service to orchestrate multiple composite cloud applications using the AWS
+CloudFormation template format, through both an OpenStack-native ReST API and a
+CloudFormation-compatible Query API. Heat has gained a lot of traction in the
+last year and already has well over 1000 commits in its
+<a href="https://github.com/openstack/heat/">repo</a>.
+
 Deeply encouraged by these interactions, we took this information to Rackspace
 management and, to quote Monty Python, there was much rejoicing. Obviously
 OpenStack is huge for Rackspace. Even more, there is a lot of excitement about
