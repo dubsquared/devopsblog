@@ -17,7 +17,7 @@ In Wayne Walls' [recent post on parallel computing](http://www.rackspace.com/blo
 There are several queues to choose from, each with benefits and drawbacks.
 
 ###RabbitMQ
-The most popular is [RabbitMQ](http://www.rabbitmq.com/), due to multiple operating system support (even Windows!) and a plethora of [clients and tools](http://www.rabbitmq.com/devtools.html) that support RabbitMQ. RabbitMQ also implements a common standard: the Advanced Message Queuing Protocol (AMQP). RabbitMQ queues messages on a central server, making it easy to deploy but a bit more interesting to scale.
+The most popular is [RabbitMQ](http://www.rabbitmq.com/), due to multiple operating system support (even Windows!) and a plethora of [clients and tools](http://www.rabbitmq.com/devtools.html) that support RabbitMQ. RabbitMQ is written in Erlang and implements a common standard: the Advanced Message Queuing Protocol (AMQP). RabbitMQ queues messages on a central server, making it easy to deploy but a bit more interesting to scale.
 
 ###ActiveMQ
 
