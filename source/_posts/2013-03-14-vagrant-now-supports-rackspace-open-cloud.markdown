@@ -6,7 +6,6 @@ comments: true
 author: Tomaz Muraus
 categories:
 - Vagrant
-- Rackspace Cloud
 ---
 We are happy to announce support for Rackspace Open Cloud in [Vagrant 1.1](http://www.vagrantup.com/)!
 

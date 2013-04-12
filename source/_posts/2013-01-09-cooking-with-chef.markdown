@@ -7,6 +7,7 @@ author: Hart Hoover
 categories: 
 - Cloud Servers
 - Chef
+- Configuration Management
 ---
 ![](/a/2013-01-09-cooking-with-chef/chef_logo.png "Chef Logo")
 
