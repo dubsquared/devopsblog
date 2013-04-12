@@ -9,6 +9,8 @@ author: Hart Hoover
 wordpress_id: 184
 categories:
 - Cloud Servers
+- Puppet
+- Python
 ---
 
 In my [last post](http://devops.rackspace.com/using-puppet-with-cloud-servers.html), I discussed a manual install of Puppet between a puppetmaster and client. Here, I will take that a step further and use Apache [libcloud](http://libcloud.apache.org/) to bootstap a Puppet client node.
