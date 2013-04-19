@@ -17,7 +17,7 @@ automatically create new incidents and resolve them once Cloud Monitoring
 detects things are ok.<!--More-->
 
 Using [raxmon](https://github.com/racker/rackspace-monitoring-cli) is
-one of the easier ways to setup PagerDuty notifications. If you haven't used raxmon
+one of the easier ways to set up PagerDuty notifications. If you haven't used raxmon
 before, there is a great guide for setting things up
 [here](http://devops.rackspace.com/using-raxmon-to-configure-rackspace-cloud-monitoring.html).
 
@@ -36,7 +36,7 @@ The first thing you'll need to do is make sure you have configured a
 PagerDuty service to use with Cloud Monitoring. 
 
 1. In your account, under the Services tab, click "Add New Service".
-2. Enter a name for the service and select an escalation policy. Then, select "Generic API" for the Service Type.
+2. Enter a name for the service, select an escalation policy and choose "Generic API system" for the Service Type.
 3. Click the "Add Service" button.
 4. Once the service is created, you'll be taken to the service page. On this page, you'll see the "Service key", which you will use when you create your notification.
 
