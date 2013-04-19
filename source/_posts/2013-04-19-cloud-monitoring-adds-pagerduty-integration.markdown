@@ -59,7 +59,7 @@ raxmon command:
 	raxmon-notification-plans-list --details
 
 By default Cloud Monitoring has a single, dynamic notification plan
-named `npTechnicalContacts` that sends an email notification to the 
+named `npTechnicalContactsEmail` that sends an email notification to each of the 
 technical contacts on your Rackspace account. If this is the only
 notification plan you see, you'll want to create a new one to take
 advantage of the new PagerDuty integration. 
