@@ -14,7 +14,7 @@ categories:
 is excited to announce [PagerDuty](http://www.pagerduty.com)
 integration! With this new notification type, alarm notifications are able to
 automatically create new incidents and resolve them once Cloud Monitoring
-detects things are ok.<!--More-->
+detects things are okay.<!--More-->
 
 Using [raxmon](https://github.com/racker/rackspace-monitoring-cli) is
 one of the easier ways to set up PagerDuty notifications. If you haven't used raxmon
