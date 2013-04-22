@@ -83,15 +83,13 @@ be created per alarm, as opposed to creating an incident per check or
 entity. Any additional alarm state changes for an incident will be appended
 to the currently active incident until it is resolved.
 
-If you wanted to send an email notification(e.g. `nt76df3U`), when an
-alarm clears with OK, you could run the following command:
+If you wanted to trigger incidents on **WARNING** and **CRITICAL**
+events and resolve the incidents with PagerDuty while also sending an
+email notification (e.g. `nt76df3U`) on **OK** events, you could run the
+following command:
 
 	raxmon-notification-plan-create --ok-notifications=nt23k123,nt76df3U \
 	--warning-notifications=nt23k123 --critical-notifications=nt23k123
-
-To be clear, this notification plan will create PagerDuty incidents on
-**WARNING** and **CRITICAL** events, where an **OK** event will resolve the incident
-and send an email letting you know the alarm cleared with **OK**.
 
 Next you will want to identify which alarm you want to update. To do
 this list your alarms for an entity with the id of `enKEb23jB` by using:
@@ -105,7 +103,7 @@ the `--details` flag.
 Your final step for taking advantage of the new PagerDuty integration is
 to [update your alarms](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-alarms.html#service-alarms-update)
 to use your newly created notification plan. Using
-the id that your call to `raxmon-notification-plan-create` returned and
+the ID that your call to `raxmon-notification-plan-create` returned and
 the alarm you've picked out, you can accomplish this by running the following:
 
 	raxmon-alarms-update  --entity-id=enKEb23JB --id=alwp0UoI45 \
@@ -116,7 +114,7 @@ automatically trigger and resolve incidents through PagerDuty.
 
 For more information visit the [Cloud Monitoring API documentation](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/overview.html).
 If you have any questions or feedback, feel free to email the
-[Cloud Monitoring team](mailto:cloudmonitoring@rackspace.com) or
+[Cloud Monitoring team](mailto:monitoring@rackspace.com) or
 join #rackspace on [irc.freenode.net](http://webchat.freenode.net?channels=rackspace).
 
 <a name="tldr">**tl;dr**</a>
