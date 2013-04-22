@@ -37,7 +37,7 @@ the bottom of the page.
 The first thing you'll need to do is make sure you have configured a
 PagerDuty service to use with Cloud Monitoring. 
 
-1. In your account, under the Services tab, click "Add New Service".
+1. In your PagerDuty account, under the Services tab, click "Add New Service".
 2. Enter a name for the service, select an escalation policy and choose "Generic API system" for the Service Type.
 3. Click the "Add Service" button.
 4. Once the service is created, you'll be taken to the service page. On this page, you'll see the "Service key", which you will use when you create your notification.
@@ -92,6 +92,10 @@ following command:
 
 	raxmon-notification-plan-create --ok-notifications=nt23k123,nt76df3U \
 	--warning-notifications=nt23k123 --critical-notifications=nt23k123
+
+**Note**: Once you've created or updated your notification plan, you can use the
+[Cloud Control Panel](https://mycloud.rackspace.com/) to configure
+alarms to use it. Read on for how to do this with raxmon.
 
 Next you will want to identify which alarm you want to update. To do
 this list your alarms for an entity with the id of `enKEb23jB` by using:
