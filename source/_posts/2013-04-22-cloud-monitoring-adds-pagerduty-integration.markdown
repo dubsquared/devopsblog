@@ -16,7 +16,9 @@ integration! With this new notification type, alarm notifications are able to
 automatically create new incidents and resolve them once Cloud Monitoring
 detects things are okay.<!--More-->
 
-Using [raxmon](https://github.com/racker/rackspace-monitoring-cli) is
+Because the [Cloud Control Panel](https://mycloud.rackspace.com/)
+doesn't support creating notifications and notification plans,
+[raxmon](https://github.com/racker/rackspace-monitoring-cli) is
 one of the easier ways to set up PagerDuty notifications. If you haven't used raxmon
 before, there is a great guide for setting things up
 [here](http://devops.rackspace.com/using-raxmon-to-configure-rackspace-cloud-monitoring.html).
@@ -102,7 +104,7 @@ the `--details` flag.
 
 Your final step for taking advantage of the new PagerDuty integration is
 to [update your alarms](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-alarms.html#service-alarms-update)
-to use your newly created notification plan. Using
+to use your newly-created notification plan. Using
 the ID that your call to `raxmon-notification-plan-create` returned and
 the alarm you've picked out, you can accomplish this by running the following:
 
@@ -120,24 +122,31 @@ join #rackspace on [irc.freenode.net](http://webchat.freenode.net?channels=racks
 <a name="tldr">**tl;dr**</a>
 
 	# Create a new PagerDuty notification using the service key you've
-	# created for Cloud Monitoring.
+	# created for Cloud Monitoring. This will return an ID that you'll use
+	# when creating/updating a notification plan.
+
 	raxmon-notifications-create --type=pagerduty \
 	--details=service_key=abcd1234abcd1234abcd1234abcd1234
 
 	# List existing notification plans to determine if you need to create
 	# a new notification plan or can update an existing one.
+
 	raxmon-notification-plans-list --details
 
-	# Create a new notification plan using your newly created PagerDuty
-	# notification.
+	# Create a new notification plan using your newly-created PagerDuty
+	# notification. Use the ID that this returns to update an alarm's
+	# associated notification plan.
+
 	raxmon-notification-plan-create --ok-notifications=nt23k123 \
 	--warning-notifications=nt23k123 --critical-notifications=nt23k123
 
 	# List your existing alarms for a specific entity to grab the alarm id
 	# for the alarm you'd like to use PagerDuty notifications on.
+
 	raxmon-alarms-list --entity-id=enKEb23JB
 
 	# Update your alarm to use your new notificatino plan.
-	raxmon-alarms-update  --entity-id=enKEb23JB --id=alwp0UoI45 \
+
+	raxmon-alarms-update --entity-id=enKEb23JB --id=alwp0UoI45 \
 	--notification-plan=npTY46f7
 
