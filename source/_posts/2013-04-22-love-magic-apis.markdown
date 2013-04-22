@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Love"
-date: 2013-04-12 15:48
+title: "Love, Magic, & APIs"
+date: 2013-04-22 8:00
 comments: true
 author: Jason Gignac
 published: true
