@@ -25,7 +25,7 @@ In order to do this, we just have to go through the following steps:
 
 1. Figure out your PagerDuty service key
 2. Create the new PagerDuty notification
-3. Create or update a notification plan
+3. Create or update a Cloud Monitoring notification plan
 4. Update an alarm to use your new notification plan
 5. Do a [happy dance](http://i.imgur.com/aqQK8IE.gif)
 
