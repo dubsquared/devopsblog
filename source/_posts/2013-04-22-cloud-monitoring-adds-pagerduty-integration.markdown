@@ -148,7 +148,7 @@ join #rackspace on [irc.freenode.net](http://webchat.freenode.net?channels=racks
 
 	raxmon-alarms-list --entity-id=enKEb23JB
 
-	# Update your alarm to use your new notificatino plan.
+	# Update your alarm to use your new notification plan.
 
 	raxmon-alarms-update --entity-id=enKEb23JB --id=alwp0UoI45 \
 	--notification-plan=npTY46f7
