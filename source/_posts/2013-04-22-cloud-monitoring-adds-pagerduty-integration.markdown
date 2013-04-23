@@ -11,8 +11,8 @@ categories:
 ---
 
 {% img right a/2013-04-22-cloud-monitoring-pagerduty/cloud_monitoring_pagerduty.png 160 160 %}[Cloud Monitoring](http://www.rackspace.com/cloud/monitoring/)
-is excited to announce [PagerDuty](http://www.pagerduty.com)
-integration! With this new notification type, alarm notifications are able to
+now supports [PagerDuty](http://www.pagerduty.com)
+integration! With this new notification type, alarm notifications can
 automatically create new incidents and resolve them once Cloud Monitoring
 detects things are okay.<!--More-->
 
@@ -37,10 +37,10 @@ the bottom of the page.
 The first thing you'll need to do is make sure you have configured a
 PagerDuty service to use with Cloud Monitoring. 
 
-1. In your PagerDuty account, under the Services tab, click "Add New Service".
+1. In your PagerDuty account, under the Services tab, click "Add New Service."
 2. Enter a name for the service, select an escalation policy and choose "Generic API system" for the Service Type.
 3. Click the "Add Service" button.
-4. Once the service is created, you'll be taken to the service page. On this page, you'll see the "Service key", which you will use when you create your notification.
+4. Once the service is created, you'll be taken to the service page. On this page, you'll see the "Service key," which you will use when you create your notification.
 
 Next you'll need to create the Cloud Monitoring 
 [notification](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-notifications.html) that you'll
@@ -106,11 +106,11 @@ This will show you the alarms associated with an entity and their
 labels. If you would like more information about the alarms, you can use
 the `--details` flag.
 
-Your final step for taking advantage of the new PagerDuty integration is
+Your final step to take advantage of the new PagerDuty integration is
 to [update your alarms](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-alarms.html#service-alarms-update)
-to use your newly-created notification plan. Using
+to use your newly-created notification plan. Use
 the ID that your call to `raxmon-notification-plan-create` returned and
-the alarm you've picked out, you can accomplish this by running the following:
+the alarm ID you've picked out, and running the following:
 
 	raxmon-alarms-update  --entity-id=enKEb23JB --id=alwp0UoI45 \
 	--notification-plan=npTY46f7
