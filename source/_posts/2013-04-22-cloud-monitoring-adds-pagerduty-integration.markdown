@@ -2,10 +2,9 @@
 layout: post
 title: "Cloud Monitoring Adds PagerDuty Integration"
 date: 2013-04-23 12:00
-comments: false
+comments: true
 author: Justin Gallardo
-published: false
-sharing: true
+published: true
 categories: 
 - Cloud Monitoring
 ---
