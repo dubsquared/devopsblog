@@ -13,7 +13,7 @@ This repo powers the [Rackspace DevOps Blog](http://devops.rackspace.com) and is
 
 **Writing articles**
 
-* Posts are created in `/source/_posts` and are written in Markdown. [Here](http://daringfireball.net/projects/markdown/syntax) is a format guide for Markdown. Emails of posts written in propreitary formats to Wayne, Hart, or Kyle are not acceptable.
+* Posts are created in `/source/_posts` and are written in Markdown. [Here](http://daringfireball.net/projects/markdown/syntax) is a format guide for Markdown. Emails of posts written in proprietary formats to Wayne, Hart, or Kyle are not acceptable.
 * Images should be placed in `/source/images`. Read [here](http://octopress.org/docs/plugins/image-tag/) on how to use the img tag in your posts.
 * Posts with YouTube Videos: `{% youtube 12345678 %}` where "12345678" is the video ID.
 * Further reading: [Blogging with Octopress](http://octopress.org/docs/blogging/)
