@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting started with Hadoop using Hortonworks Sandbox"
-date: 2013-04-12 15:58
+date: 2013-04-25 8:00
 comments: true
 author: Sudarshan Acharya
 published: true
@@ -9,8 +9,9 @@ categories:
 - Big Data
 - Hadoop
 ---
+{% img right a/2013-04-25-getting-started-with-hadoop/hortonworks.jpg 200 200 %}
 Getting started with a distributed system like Hadoop can be a daunting task for developers.From installing and configuring Hadoop to learning the basics of MapReduce and other add-on tools, the learning curve is pretty high.
-
+<!--More-->
 Hortonworks recently released the Hortonworks Sandbox for anyone interested in learning and evaluating enterprise Hadoop.
 
 The Hortonworks Sandbox provides:
@@ -58,8 +59,8 @@ nova boot --flavor $flavor_id --image $image_id hadoop-sandbox
 
 Once the instance goes to ACTIVE status and that the instance pings, you can ssh into the instance using
 
-Username: root
-Password: hadoop
+* Username: root
+* Password: hadoop
 
 Watch `/var/log/boot.log` as the services are coming up, and it will let you know when the installation is complete. This can take about 10 minutes. 
 
