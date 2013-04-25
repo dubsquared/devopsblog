@@ -2,10 +2,8 @@
 comments: true
 date: 2012-10-30 15:24:25
 layout: post
-slug: cn-api
 title: 'Cloud Networks: Example Architecture and API'
 author: Hart Hoover
-wordpress_id: 590
 categories:
 - Cloud Networks
 ---
@@ -43,7 +41,7 @@ Rackspace has worked closely with Quantum since its inception, and has built bui
 ### Architecture Example
 
 
-![](a/2012-10-30-cn-api/cloud_networks_example.png)
+{% img center /images/2012-10-30-cn-api/cloud_networks_example.png %}
 
 In this reference architecture example, we have a simple load balanced configuration with an isolated application server with sensitive data. You can use Cloud Networks to isolate servers from each other and eventually extend an existing network into our cloud.
 
