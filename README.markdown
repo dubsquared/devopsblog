@@ -3,7 +3,7 @@ This repo powers the [Rackspace DevOps Blog](http://devops.rackspace.com) and is
 
 ## How to contribute to the blog
 1. Fork the repo, clone your fork to your local machine
-2. [Set up Octopress/RVM](http://octopress.org/docs/setup/)
+2. [Install Ruby & RVM](http://octopress.org/docs/setup/rvm/)
 3. In the `devopsblog` directory, run `bundle install`.
 4. In the same directory, create a new post: `rake new_post['The title of your post']`
 5. Edit the file that is created. [Here](http://daringfireball.net/projects/markdown/syntax) is a format guide for Markdown.
