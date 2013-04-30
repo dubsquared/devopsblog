@@ -18,7 +18,7 @@ Now that you can use a lightning fast (and automatically scalable and redundant)
 
 ###Signup
 
-The first thing you'll need to do is [signup for an ObjectRocket plan](http://www.objectrocket.com/pricing). Plans start at as little as $29 per month for a 1GB shard and there's a 30-day free trial, so you can try it out without any risk.
+The first thing you'll need to do is [signup for an ObjectRocket plan](http://www.objectrocket.com/pricing). Plans start at as little as $29 per month for a 1GB shard and there's a 30-day free trial, so you can try it out without any risk. Please note that bandwidth charges will incur for communications between Cloud Servers and ObjectRocket.
 
 ###Billing
 
