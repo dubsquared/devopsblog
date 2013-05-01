@@ -1,8 +1,21 @@
 <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<meta property="og:image" content="http://c15162226.r26.cf2.rackcdn.com/Rackspace_Cloud_Company_Logo_clr_600x218.jpg" />
-<link rel="image_src" href="http://c15162226.r26.cf2.rackcdn.com/Rackspace_Cloud_Company_Logo_clr_600x218.jpg">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+<meta name="twitter:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
+<meta name="twitter:image" content="{{ site.url }}/images/devops_logo_red.png">
+<meta name="twitter:site" content="{% if site.twitter_user %} @{{ site.twitter_user }} {% endif %}">
+<meta name="twitter:creator" content="{% if site.twitter_user %} @{{ site.twitter_user }} {% endif %}">
+
+<meta property="og:type" content="blog">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}/images/devops_logo_red.png">
+<meta property="og:site_name" content="{{ site.title }}">
+
 <style type="text/css">
 
 #head-wrap {
