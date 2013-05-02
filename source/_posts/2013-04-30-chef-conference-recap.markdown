@@ -56,7 +56,7 @@ Hart wrote a post a while ago about Agility, and traditional architecture vs clo
 
 ##Tooling
 
-There was a lot of talk around additional tools to help with Chef. [Berkshefl](http://www.berkshelf.com), [Librarian](https://github.com/applicationsonline/librarian) and others. 
+There was a lot of talk around additional tools to help with Chef. [Berkshelf](http://www.berkshelf.com), [Librarian](https://github.com/applicationsonline/librarian) and others. 
 [Jamie Winsor](https://twitter.com/resetexistence) from [Riot Games](http://www.riotgames.com) gave an incredible keynote on Berkshelf that you can find [here](http://www.youtube.com/watch?v=hYt0E84kYUI).
 Jamie explained some of the benefits to using Berkshelf such as resolving and fetching cookbook dependencies. 
 Using Berkshelf you can keep track of all your cookbooks in a local directory ~/.berkshelf by default. Berkshelf also creates versioning of these files so in case you forget to check something into github you are not out of luck.
