@@ -124,7 +124,7 @@ This script is not yet signed. In order for this module to be properly imported,
 
 ##How does PowerClient get installed?
 
-The way this script is built is as a Powershell module. Start by downloading as a ZIP file HERE. By default, PowerShell looks in the paths specified in the $env:PSModulePath environment variable when searching for available modules on a system. This contains two paths out of the box
+The way this script is built is as a Powershell module. Start by downloading as a ZIP file [HERE](https://github.com/drmmarsunited/rackspacecloud_powershell/archive/master.zip). By default, PowerShell looks in the paths specified in the $env:PSModulePath environment variable when searching for available modules on a system. This contains two paths out of the box
 
 1. System Location - `%windir%\System32\WindowsPowerShell\v1.0\Modules`
 
