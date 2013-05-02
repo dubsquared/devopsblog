@@ -153,3 +153,7 @@ Help for individual commands are built into the module and can be viewed by usin
 
 * Maximize your window and screen buffer sizes to get the most output possible in your Powershell window.
 * Towards the top of the module, every command has an alias that is commented out. You can uncomment these lines to make using this module even easier for yourself and other administrators.
+
+##Video Walkthrough
+
+{% youtube OfHSAFmGQZo %}
