@@ -57,9 +57,10 @@ Hart wrote a post a while ago about Agility, and traditional architecture vs clo
 ##Tooling
 
 There was a lot of talk around additional tools to help with Chef. [Berkshelf](http://www.berkshelf.com), [Librarian](https://github.com/applicationsonline/librarian) and others. 
+
 [Jamie Winsor](https://twitter.com/resetexistence) from [Riot Games](http://www.riotgames.com) gave an incredible keynote on Berkshelf that you can find [here](http://www.youtube.com/watch?v=hYt0E84kYUI).
 Jamie explained some of the benefits to using Berkshelf such as resolving and fetching cookbook dependencies. 
-Using Berkshelf you can keep track of all your cookbooks in a local directory ~/.berkshelf by default. Berkshelf also creates versioning of these files so in case you forget to check something into github you are not out of luck.
+Using Berkshelf you can keep track of all your cookbooks in a local directory ~/.berkshelf by default. Berkshelf also creates versioning of these files so in case you forget to check something into Github you are not out of luck.
 Installation of Berkshelf is straight forward and easy to follow, you can find all the instructions on Berkshelf's [site](http://berkshelf.com/)
 
 [Foodcritic](http://acrmp.github.io/foodcritic/) was another tool that was mentioned. Foodcritic solves for two things. 
@@ -71,17 +72,7 @@ Foodcritic is widely used for automated checking of cookbooks to make sure you d
 
 [Test Kitchen](https://github.com/opscode/test-kitchen#readme) is a framework for running project integration tests in an isolated environment using Vagrant and Chef. You describe the configuration for testing your project using a lightweight Ruby DSL.
 
-Test kitchen runs through several different kinds of tests, depending on the configuration.
-
-First, it does a syntax check using knife cookbook test. This does require a valid knife.rb with the cache path for the checksums stored by the syntax checker.
-
-Second, it performs a lint check using foodcritic, and will fail and exit if any correctness checks fail.
-
-For cookbook projects, it provisions a VM and runs the default recipe or recipes set as "configurations" (see below) in the Kitchenfile to ensure it can be converged. If a cookbook has minitest-chef tests, it will run those as well. If the cookbook has declared dependencies in the metadata, test-kitchen uses Librarian to resolve those dependencies. Support for Berkshelf is pending
-
-For integration_test projects, it provisions a VM and runs the integration tests for the project, by default "rspec spec".
-
-In either cookbook or integration_test projects, if a "features" directory exists, test-kitchen will attempt to run those tests using cucumber.
+Test kitchen runs through several different kinds of tests, depending on the configuration. First, it does a syntax check using knife cookbook test. This does require a valid knife.rb with the cache path for the checksums stored by the syntax checker. Second, it performs a lint check using foodcritic, and will fail and exit if any correctness checks fail. For cookbook projects, it provisions a VM and runs the default recipe or recipes set as "configurations" (see below) in the Kitchenfile to ensure it can be converged. If a cookbook has minitest-chef tests, it will run those as well. If the cookbook has declared dependencies in the metadata, test-kitchen uses Librarian to resolve those dependencies. Support for Berkshelf is pending. For integration_test projects, it provisions a VM and runs the integration tests for the project, by default "rspec spec". In either cookbook or integration_test projects, if a "features" directory exists, test-kitchen will attempt to run those tests using cucumber.
 
 Test Kitchen also has built-in [OpenStack](http://openstack.org) support.
 
