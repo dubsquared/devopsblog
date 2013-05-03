@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chef Conference Recap"
-date: 2013-04-30 22:04
+date: 2013-05-02 21:31
 comments: true
 author: Jason Smith
 published: false
