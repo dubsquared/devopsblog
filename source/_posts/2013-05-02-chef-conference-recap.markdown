@@ -4,13 +4,13 @@ title: "Chef Conference Recap"
 date: 2013-05-02 21:43
 comments: true
 author: Jason Smith
-published: false
+published: true
 categories:
 - Chef
 - Automation
 ---
 {% img right images/2013-05-02-chef-conference-recap/opscode_wings.png 250 200  %}
-DevOps and automation are all the rage now a days and [Chef](http://opscode.com/chef) is at the forefront. I spent Thursday and Friday of last week at [ChefConf](http://chefconf.com) in San Francisco and heard some amazing presentations. The presentations were all recorded and are available on [YouTube](http://www.youtube.com/user/Opscode)
+DevOps and automation are all the rage now a days and [Chef](http://opscode.com/chef) is at the forefront. I spent Thursday and Friday of last week at [ChefConf](http://chefconf.com) in San Francisco and heard some amazing presentations. The presentations were all recorded and are available on [YouTube](http://www.youtube.com/user/Opscode).
 
 
 I wrote last week about a couple of keynotes that I attended, which you can find [here](http://devops.rackspace.com/thoughts-from-chefconf-day-1.html).  This post will share some more of the presentations I was able to attend, but also talk about the overall key points that all the speakers referenced.
@@ -38,7 +38,7 @@ So, taking into account Albert Einstein's theory from above we have got to conti
 
 Businesses love industrialization because of the following points.
 
-- Predictable.
+- Predictable
 - Cost Effective
 - Productive
 - Managed Risk
@@ -96,4 +96,4 @@ These type of unofficial tracks are just as important in my opinion as the offic
 
 ChefConf was incredible this year, and as it continues to grow and more companies become part of the DevOps movement we will continue to see great participation at these conferences and an increasing interest in orchestration tools and automation.
 
-Hopefully I'll see you at next years ChefConf!
+Hopefully I'll see you at next year's ChefConf!
