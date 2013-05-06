@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "jclouds 1.6.0"
-date: 2013-05-02 22:58
+date: 2013-05-06 12:00
 comments: true
 author: Everett Toews
-published: false
+published: true
 categories: 
 - Java
 - SDK
