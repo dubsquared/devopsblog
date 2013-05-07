@@ -124,6 +124,7 @@ Lastly, we need to package up our initrd and rebuild the iso so we can use it!
 ```bash
 $ find ./ | cpio -H newc -o > ../initrd.gz
 $ cd ..
+# We mounted the iso read only, so make a copy to add the new initrd.gz to
 $ mkdir new_iso
 $ cp -r iso/ new_iso/
 $ cp initrd.gz  new_iso/
