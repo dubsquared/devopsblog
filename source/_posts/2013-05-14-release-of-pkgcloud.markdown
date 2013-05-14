@@ -4,7 +4,7 @@ title: "Plans for the (v0.8?) release of pkgcloud"
 date: 2013-05-14 08:57
 comments: true
 author: Ken Perkins
-published: false
+published: true
 categories: 
 - SDK
 - pkgcloud
