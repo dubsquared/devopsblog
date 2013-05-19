@@ -14,7 +14,7 @@ As we hinted at in our [post earlier this week](http://devops.rackspace.com/rele
 
 ### Enter pkgcloud
 
-Rackspace is now sponsoring development to an existing multi-cloud provisioning package for node.js called [pkgcloud](https://github.com/nodejitsu/pkgcloud) authored primarily by the team at [Nodejitsu](nodejitsu.com). We evaluated a number of options for our node.js SDK strategy, including authoring our own package, but we felt that contributing back to the prominent cloud provisioning package for node.js aligned with strategies we already have in place for Ruby with [fog](https://github.com/fog/fog) and Java with [jclouds](https://github.com/jclouds/jclouds).
+Rackspace is now sponsoring development to an existing multi-cloud provisioning package for node.js called [pkgcloud](https://github.com/nodejitsu/pkgcloud) authored primarily by the team at [Nodejitsu](http://nodejitsu.com). We evaluated a number of options for our node.js SDK strategy, including authoring our own package, but we felt that contributing back to the prominent cloud provisioning package for node.js aligned with strategies we already have in place for Ruby with [fog](https://github.com/fog/fog) and Java with [jclouds](https://github.com/jclouds/jclouds).
 
 When we talk about an *official release*, in actuality we're saying it's our first [*supported*](http://www.rackspace.com/blog/rackspace-developer-support-fanatical-support-for-your-code/) release of `pkgcloud`. You can download and use `pkgcloud` against the Rackspace Cloud today, but we're not yet ready to call the current version official. 
 
