@@ -10,9 +10,12 @@ categories:
 - Documentation
 ---
 
-So you've written a nice Python library where you were a good little developer,
-keeping docstrings updated with [Sphinx formatting][1]. It's easy to turn these
-docstrings into beautiful, hosted HTML, updated every time you push to GitHub.
+A well-documented Python library is something to be proud of. Reading through
+the code, you've got docstrings explaining the various parameters and
+constraints around your functions, hopefully using standards like [Sphinx][1]
+or [Google][13] formatting. Having to open up the code to find this information
+is less than ideal, but it's easy to turn these docstrings into beautiful,
+hosted HTML, updated every time you push to GitHub.
 
 We'll be taking advantage of plenty of different technologies to make this
 happen:
@@ -122,7 +125,7 @@ Once you've created an account and logged in to ReadTheDocs, go to your
 Dashboard and click the "Import" button. Most of your choices will depend on
 your project, although you will need to set these three options in particular:
 
-* **Repo**: Use the `https://....git` link to your Git repository!
+* **Repo**: Use the `https://<repo-url>.git` link to your Git repository!
 * **Python configuration file**: `doc/source/conf.py`
 * **Use virtualenv**: ***&#x2713;***
 
@@ -170,9 +173,10 @@ project does not have a `setup.py`, it's dependencies can be installed using a
 
 ### Q: Is it only for documenting code?
 
-***A:*** Sphinx documentation is built using their heavily extended
-[reStructuredText][12] markup. You can easily add items to your ``.. toctree::``
-with anything you want, such as usage manuals or code samples.
+***A:*** You can easily add items to your ``.. toctree::`` with anything you
+want, such as usage manuals or code samples. Sphinx documentation is built
+using their heavily extended [reStructuredText][12] markup, so anything you can
+concoct with this powerful syntax is possible.
 
 [1]: http://pythonhosted.org/an_example_pypi_project/sphinx.html#full-code-example
 [2]: http://readthedocs.org/
@@ -186,4 +190,5 @@ with anything you want, such as usage manuals or code samples.
 [10]: https://pypi.python.org/pypi
 [11]: http://www.pip-installer.org/en/latest/requirements.html#requirements-files
 [12]: http://sphinx-doc.org/rest.html
+[13]: http://google-styleguide.googlecode.com/svn/trunk/pyguide.html?showone=Comments#Comments
 
