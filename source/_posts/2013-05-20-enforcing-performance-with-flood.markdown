@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Enforcing Performance With Flood"
-date: 2013-05-06 21:59
+date: 2013-05-20 08:00
 comments: true
 author: Ian Good
 published: true
 categories: 
-- Node.js
+- node.js
 - Performance
 - Jenkins
 ---
@@ -55,10 +55,11 @@ just that.
 Now for the real question, how do we build a Jenkins job that runs our test,
 produces a graph of performance-over-time, and fails if conditions aren't met?
 
-Easy! Set up a Jenkins job that checks out your performance test scripts. Now
-let's add some extra keys to `config.json` that define the parameters for
-failure and what to plot. For example, if you had a counter called `"test"`,
-you could add this to your `config.json`:
+Easy! Set up a Jenkins job that checks out your performance test scripts. The
+`flood-watch` utility uses its own config file, `config.json`, in which we want
+to add some extra keys that define the parameters for failure and what to plot.
+For example, if you had a counter called `"test"`, you could add this to your
+`config.json`:
 
     "fail": [
         "test average < 100",
@@ -89,6 +90,8 @@ Remember, as with all performance testing, data is only useful when you can
 compare it to something! Keeping your performance testing environment on
 consistent hardware (or VMs) and using Chef (or similar) to make sure your app
 stays up-to-date are crucial to producing useful output.
+
+{% img /images/2013-05-06-enforcing-performance-with-flood/flood-plot-output.png %}
 
 [1]: http://www.rackspace.com/email-hosting/
 [2]: https://github.com/
