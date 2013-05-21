@@ -2,6 +2,8 @@
 This repo powers the [Rackspace DevOps Blog](http://devops.rackspace.com) and is maintained by [Hart Hoover](https://github.com/hhoover) and [Wayne Walls](https://github.com/dubsquared). Please contact one of us if you have questions regarding this repo.
 
 ## How to contribute to the blog
+**If you use Vagrant**: <https://github.com/raxdevblog/vagrant-blog>
+Otherwise:
 1. Fork the repo, clone your fork to your local machine
 2. Install Ruby with RVM: `$ curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enabled --ruby=1.9.3`
 3. In the `devopsblog` directory, run `bundle install`.
