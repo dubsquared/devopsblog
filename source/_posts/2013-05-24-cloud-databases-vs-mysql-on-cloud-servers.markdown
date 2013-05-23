@@ -4,7 +4,7 @@ title: "Cloud Databases vs. MySQL on Cloud Servers"
 date: 2013-05-24 12:00
 comments: true
 author: Edward Adame
-published: false
+published: true
 categories: 
 - Cloud Servers
 - Cloud Databases

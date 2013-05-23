@@ -4,7 +4,7 @@ title: "Gluecon 2013 Day 1: Distributed Systems, APIs and Automation"
 date: 2013-05-24 8:00
 comments: true
 author: Wayne Walls
-published: false
+published: true
 categories:
 - Gluecon
 - Developers
