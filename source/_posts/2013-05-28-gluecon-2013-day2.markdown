@@ -10,7 +10,8 @@ categories:
 -  Developers
 -  DevOps
 ---
-The second day of Gluecon 2013 started off with a bang with a great keynote presentation from [Lew Cirne]( https://twitter.com/sweetlew), CEO of [New Relic]( http://newrelic.com/) and [Stephen O’Grady](https://twitter.com/sogrady) of Redmonk.  Day two’s was packed with compelling topics including enterprise software history, CEOs who love to code, why to API and a further introduction to Google Compute Engine.  
+{% img right /images/2013-05-24-gluecon/glue_logo.png %}
+The second day of Gluecon 2013 started off with a bang with a great keynote presentation from [Lew Cirne]( https://twitter.com/sweetlew), CEO of [New Relic]( http://newrelic.com/) and [Stephen O’Grady](https://twitter.com/sogrady) of Redmonk.  Day two’s was packed with compelling topics including enterprise software history, CEOs who love to code, why to API and a further introduction to Google Compute Engine.  <!--More-->
 
 In his  keynote, “The New Kingmakers,” O’Grady shared a bit of history around enterprise software. He made the argument that 20 to 30 years ago software was built to be bought.  The major software players of those days put requirements in place that end users had to work around. But a shift began in the late 90s and we started to think about software in a whole new way:  it was built to be used.  O’Grady walked us through a timeline that helped augment his statements:
 
@@ -143,6 +144,3 @@ A lot of the information presented was covered during the product launch, but he
 -  Cloud Console is its web-based dashboard interface – shows REST API calls that will be executed (great for developers to learn APIs while using a web console).
 
 Overall, day two of Gluecon was another great day filled with engaging content and fresh, new ideas. I look forward to next year to see how the conversations evolve even further.
-
-
-
